@@ -1,0 +1,2 @@
+1. The bug here is that num1 and num2 are being treated as strings rather than integers. And JS is concatenating num1 and num2 instead of doing an arithmetic add.
+2. I can fix it by converting num1 and num2 into integers before storing their sum in result by using parseInt.
